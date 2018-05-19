@@ -8,7 +8,7 @@ function theBeatlesPlay(musicians, instruments) {  // for loop that adds musicia
 function johnLennonFacts(facts) { // while loop that adds "!!!" to each fact from the facts array into an empty array
   var y = 0;
   while ( y < facts.length) {
-    facts[y] = facts[y] + "!!!";
+    facts[y] += "!!!";
     y++;
   }
   return facts;
