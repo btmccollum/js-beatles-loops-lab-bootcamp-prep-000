@@ -1,6 +1,6 @@
 function theBeatlesPlay(musicians, instruments) {  // for loop that adds musician and the instrument they play from each array to empty array
   var arr1 = [];
-  for (var x = 0; x <= arr1.length; x++) {
+  for (var x = 0; x <= musicians.length; x++) {
       arr1.push(musicians[x] + " plays " + instruments[x]);
   }
   return arr1;
