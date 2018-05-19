@@ -16,8 +16,8 @@ function johnLennonFacts(facts) { // while loop that adds "!!!" to each fact fro
 function iLoveTheBeatles(z) { // do while loop that adds "I love the Beatles!" while z < 15
   var arr3 = [];
   do {
-    z++;
     arr3.push("I love the Beatles!");
-    } while (z < 15);
+    z++;
+  } while (z < 15);
  return arr3;
 }
